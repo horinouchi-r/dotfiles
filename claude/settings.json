@@ -2,6 +2,18 @@
   "env": {
     "CLAUDE_CODE_EXPERIMENTAL_AGENT_TEAMS": "1"
   },
+  "enableAllProjectMcpServers": true,
+  "permissions": {
+    "allow": [
+      "Bash(/Users/swim/.npm_global/bin/backlog-mcp-server*)",
+      "mcp__1bff1cd3-7355-470a-8371-60dee7177a10__gcal_list_events",
+      "mcp__1bff1cd3-7355-470a-8371-60dee7177a10__gcal_list_calendars",
+      "mcp__1bff1cd3-7355-470a-8371-60dee7177a10__gcal_get_event",
+      "mcp__backlog__get_issues",
+      "mcp__backlog__get_issue",
+      "mcp__backlog__get_project_list"
+    ]
+  },
   "extraKnownMarketplaces": {
     "claude-plugins-official": {
       "source": {
